@@ -1,0 +1,23 @@
+# api read user
+GET  http://localhost:3001/api/users
+
+
+#### api create user
+POST  http://localhost:3001/api/users
+Content-Type: application/json
+ 
+{
+    "name": "Ego Oktafanda",
+    "email": "ego@example.com",
+    "password": "password"
+}
+
+
+#### api update user
+PUT  http://localhost:3001/api/users/1
+Content-Type: application/json
+{
+    "name": "Ego O.",
+    "email": "ego.o@example.com",
+    "password": "newsecurepassword"
+}
